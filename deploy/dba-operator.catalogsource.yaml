@@ -1,0 +1,7 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: dba-operator
+spec:
+  sourceType: grpc
+  image: quay.io/alecmerdler/dba-operator-catalog@sha256:455b3c04a8aeee4a75d68b990b2ceef60541256fbc34cbd7102d583e25070e9c
